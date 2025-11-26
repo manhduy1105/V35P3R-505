@@ -97,3 +97,6 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/V35P3R_Game/Library
+/V35P3R_Game/Temp
+/V35P3R_Game/UserSettings
