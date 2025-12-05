@@ -8,7 +8,7 @@ public class Test_PLayerController : MonoBehaviour
     public float grafityScale = 2f;
 
     public float sensitivity = 200f;
-
+    
     private float xRotation = 0f;private float yRotation = 0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -66,10 +66,10 @@ Cursor.lockState = CursorLockMode.Locked;
         
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -80f, 80f);
-yRotation += mouseX;
-         transform.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);
+        yRotation += mouseX;
+        transform.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);
 
         
-         // transform.Rotate(Vector3.up * mouseX);
+         // transform.rotation = Quaternion.Euler(0f, yRotation, 0f);
     }
 }
